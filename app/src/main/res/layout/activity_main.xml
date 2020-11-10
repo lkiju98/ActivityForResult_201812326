@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    //sub화면으로의 이동을 도와주는 버튼생성
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="서브 액티비티로부터 문자열 반환받기"
+        android:id="@+id/button">
+    </Button>
+
+    //"반환된 문자열" textview생성
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="반환된 문자열"
+        android:id="@+id/textView1">
+    </TextView>
+
+    //subactivity들로부터 받은 text1을 표시해줄 textview생성
+    <TextView
+        android:layout_height="wrap_content"
+        android:text="____________________"
+        android:id="@+id/text"
+        android:layout_width="match_parent">
+    </TextView>
+
+    //subactivity들로부터 받은 text2을 표시해줄 textview생성
+    <TextView
+        android:layout_height="wrap_content"
+        android:text="____________________"
+        android:id="@+id/text2"
+        android:layout_width="match_parent">
+    </TextView>
+
+</LinearLayout>
